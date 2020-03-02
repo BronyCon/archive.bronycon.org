@@ -28363,7 +28363,7 @@ function bronyconSchedule() {
 function vendorMap() {
   if ($('#vendor-hall-map').length) {
 
-    $.getScript("/js/vendor-layout.js", function() {
+    $.getScript("../js/vendor-layout.js", function() {
 
       $("rect[class=map-vendor-booth], path[class=map-vendor-booth]").each(function() {
         var boothNumber = $(this).data("booth"),
